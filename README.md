@@ -9,9 +9,44 @@ College:- Sahyadri College of Engineering and Management Mangalore
 # Task1
 The objective of this task is to write a C program that calculates the sum of numbers from 1 to a given integer n. The program initializes a sum variable to zero and iterates from 1 to n, adding each number to the sum. After execution, the result is displayed using the printf function. The program is compiled and executed using the GCC compiler, and then an attempt is made to compile it using a RISC-V compiler. The generated assembly code is also examined. Below is a step-by-step explanation of the process, including the commands used and their respective functions.
 
-### C Program to Calculate Sum of Numbers from 1 to n
+### C Program to Calculate Sum of Numbers from 1 to n.
+
+
+The loop iterates from 1 to n, adding each value to sum.
+
+The final sum is printed using the printf function.
 
  
+### Assembly code representation of the program.
 
+The instructions correspond to memory operations, control flow, and function calls in the RISC-V architecture.
+
+Key instructions include addi, lw, sw, bge, and jal.
+
+### Compilation and execution of the program.
+
+
+##### 1. gcc sum1ton.c
+Compiles the program using GCC.
+
+##### 2. ./a.out
+Executes the compiled file and prints the sum (e.g., "sum of numbers from 1 to 6 is 21").
+
+
+### Compilation using RISC-V compiler.
+
+
+
+##### 1.cat sum1ton.c
+Displays the content of the C program.
+
+##### 2. riscv64-unknown-elf-gcc -o sum1ton.o -mabi=lp64 -march=rv64i sum1ton.c
+Compiles the program for RISC-V architecture.
+
+##### 3. ls -ltr sum1ton.o
+Lists the details of the generated object file.
+
+##### 4. riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+Compiles the program with high optimization.
 
  
