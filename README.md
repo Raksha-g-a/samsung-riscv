@@ -7,7 +7,7 @@ Name:- RAKSHA G A
 College:- Sahyadri College of Engineering and Management Mangalore 
 
 # Task1
-VSD link: Download Here
+VSD link: 
 password vsdiat
 
 
