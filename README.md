@@ -26,10 +26,10 @@ Key instructions include addi, lw, sw, bge, and jal.
 ### Compilation and execution of the program.
 
 
-##### 1. gcc sum1ton.c
+#### 1. gcc sum1ton.c
 Compiles the program using GCC.
 
-##### 2. ./a.out
+#### 2. ./a.out
 Executes the compiled file and prints the sum (e.g., "sum of numbers from 1 to 6 is 21").
 
 
@@ -37,16 +37,16 @@ Executes the compiled file and prints the sum (e.g., "sum of numbers from 1 to 6
 
 
 
-##### 1.cat sum1ton.c
+#### 1.cat sum1ton.c
 Displays the content of the C program.
 
-##### 2. riscv64-unknown-elf-gcc -o sum1ton.o -mabi=lp64 -march=rv64i sum1ton.c
+#### 2. riscv64-unknown-elf-gcc -o sum1ton.o -mabi=lp64 -march=rv64i sum1ton.c
 Compiles the program for RISC-V architecture.
 
-##### 3. ls -ltr sum1ton.o
+#### 3. ls -ltr sum1ton.o
 Lists the details of the generated object file.
 
-##### 4. riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+#### 4. riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 Compiles the program with high optimization.
 
  
