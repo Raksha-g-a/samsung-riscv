@@ -4,4 +4,8 @@ The RISC-V Talent Development Program, powered by Samsung Semiconductor India Re
 
 # Basic details 
 Name:- RAKSHA G A 
+College:- Sahyadri College of Engineering and Management Mangalore 
+
+# Task1
+
  
