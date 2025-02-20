@@ -37,7 +37,6 @@ Executes the compiled file and prints the sum (e.g., "sum of numbers from 1 to 6
 
 ### Compilation using RISC-V compiler.
 
-#Task2
 
 #### 1.cat sum1ton.c
 Displays the content of the C program.
@@ -52,3 +51,5 @@ Lists the details of the generated object file.
 Compiles the program with high optimization.
 
 <details>
+
+# Task2
