@@ -8,8 +8,7 @@ College:- Sahyadri College of Engineering and Management Mangalore
 
 # Task1
 <details>
-VSD link: 
-password vsdiat
+
 
 
 ### C Program to Calculate Sum of Numbers from 1 to n.
