@@ -4,6 +4,7 @@ The RISC-V Talent Development Program, powered by Samsung Semiconductor India Re
 
 # Basic details 
 Name:- RAKSHA G A 
+
 College:- Sahyadri College of Engineering and Management Mangalore 
 
 # Task1
@@ -50,5 +51,6 @@ Lists the details of the generated object file.
 #### 4. riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 Compiles the program with high optimization.
 
-<details>
+</details>
+# Task2
 
