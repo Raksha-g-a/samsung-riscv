@@ -54,4 +54,6 @@ Compiles the program with high optimization.
 </details>
 
 # Task2
+# Task3
+<details>
 
