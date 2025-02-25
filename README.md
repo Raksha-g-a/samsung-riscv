@@ -74,6 +74,7 @@ To write a simple C program and to compile the C program using RISC-V GCC/SPIKE 
  </details>
  
 # Task3
+To identify 15 unique RISC-V instructions from the riscv-objdump of my application code and to determine the exact 32 bit instruction code from those 15 instructions.
 <details>
 
 
