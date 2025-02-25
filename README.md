@@ -57,32 +57,7 @@ Compiles the program with high optimization.
 # Task3
 <details>
 
-Navigation Menu
 
-Code
-Issues
-Pull requests
-Samsung-RISC-V
-/README.md
-phoenix-chipdesign
-phoenix-chipdesign
-2 days ago
-895 lines (599 loc) · 30.5 KB
-
-Preview
-
-Code
-
-Blame
-Samsung-RISC-V
-NAME: Rohan V Poorma
-College: KLE Institute of Technology
-EmailID:rohanpoorma7@gmail.com
-Github:https://github.com/phoenix-chipdesign
-
-Task 1:Task is to install all the essential tools required for this samsung-RISCV Workshop such as Ubuntu on VMBox & refer to C based and RISCV based lab videos and execute the task of compiling the C code using gcc and riscv compiler
-Task 2:SPIKE Simulation and Debugging the C code with Interactive Debugging Mode using Spike.
-Task 3: Task is to identify various instruction type of all the given instructions with its exact 32 bits instruction code.
 INSTRUCTIONS FORMAT IN RISC-V
 There are 6 instruction formats in RISC-V:
 
