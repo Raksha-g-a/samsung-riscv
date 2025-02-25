@@ -57,3 +57,84 @@ Compiles the program with high optimization.
 # Task3
 <details>
 
+Navigation Menu
+
+Code
+Issues
+Pull requests
+Samsung-RISC-V
+/README.md
+phoenix-chipdesign
+phoenix-chipdesign
+2 days ago
+895 lines (599 loc) · 30.5 KB
+
+Preview
+
+Code
+
+Blame
+Samsung-RISC-V
+NAME: Rohan V Poorma
+College: KLE Institute of Technology
+EmailID:rohanpoorma7@gmail.com
+Github:https://github.com/phoenix-chipdesign
+
+Task 1:Task is to install all the essential tools required for this samsung-RISCV Workshop such as Ubuntu on VMBox & refer to C based and RISCV based lab videos and execute the task of compiling the C code using gcc and riscv compiler
+Task 2:SPIKE Simulation and Debugging the C code with Interactive Debugging Mode using Spike.
+Task 3: Task is to identify various instruction type of all the given instructions with its exact 32 bits instruction code.
+INSTRUCTIONS FORMAT IN RISC-V
+There are 6 instruction formats in RISC-V:
+
+R-format
+I-format
+S-format
+B-format
+U-format
+J-format
+1. R-type Instruction
+In RV32, each instruction is of size 32 bits.
+In R-type instruction, R stands for register
+This instruction type is used to execute various arithmetic and logical operations.
+The entire 32 bits instruction is divided into 6 fields as shown below. R-type
+2. I-type Instruction
+In RV32, each instruction is of size 32 bits.
+In I-type instruction, I stand for immediate which means that operations use Registers and Immediate value
+This instruction type is used in immediate and load operations.
+The entire 32 bits instruction is divided into 5 fields as shown below.
+I-type
+
+Example: ADDI rd, rs1, imm
+
+3. S-type Instruction
+In RV32, each instruction is of size 32 bits.
+In S-type instruction, S stand for store which means it is store type instruction that helps to store the value of register into the memory.
+Mainly, this instruction type is used for store operations.
+The entire 32 bits instruction is divided into 6 fields as shown below.
+S_type_instruction
+
+Example: SW rs2, imm(rs1)
+
+4. B-type Instruction
+In RV32, each instruction is of size 32 bits.
+In B-type instruction, B stand for branching which means it is mainly used for branching based on certain conditions.
+The entire 32 bits instruction is divided into 8 fields as shown below.
+B-type
+
+Example: BEQ rs1, rs2, imm
+
+5. U-type Instruction
+In RV32, each instruction is of size 32 bits.
+In U-type instruction, U stand for Upper Immediate instructions which means it is simply used to transfer the immediate data into the destination register.
+The entire 32 bits instruction is divided into 3 fields as shown below.
+u-type
+
+Example: LUI rd, imm
+
+6. J-type Instruction
+In RV32, each instruction is of size 32 bits.
+In J-type instruction, J stand for jump, which means that this instruction format is used to implement jump type instruction.
+The entire 32 bits instruction is divided into 6 fields as shown below.
+J_type_instruction
+
+Example: JAL rd, imm
