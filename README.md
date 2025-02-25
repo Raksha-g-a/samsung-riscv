@@ -125,3 +125,12 @@ In J-type instruction, J stand for jump, which means that this instruction forma
 The entire 32 bits instruction is divided into 6 field.
 
 Example: JAL rd, imm
+
+</details>
+
+# Task4
+<details>
+
+ Instruction 5: XOR R10, R1, R4
+</details>
+
