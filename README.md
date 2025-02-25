@@ -54,6 +54,11 @@ Compiles the program with high optimization.
 </details>
 
 # Task2
+ <details>
+  1. Simple C program Compilation
+
+  
+ </details>
 # Task3
 <details>
 
