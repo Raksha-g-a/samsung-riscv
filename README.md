@@ -55,9 +55,10 @@ Compiles the program with high optimization.
 
 # Task2
  <details>
-1.Simple C program Compilation
-
   
+1.Simple C program Compilation.
+
+
 2.Verify that your code is giving same output even when you use RISC-V compiler as shown.
 
   
