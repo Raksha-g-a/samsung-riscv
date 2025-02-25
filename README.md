@@ -55,12 +55,19 @@ Compiles the program with high optimization.
 
 # Task2
  <details>
-  1. Simple C program Compilation
+1.Simple C program Compilation
 
-  2.verify that your code is giving same output even when you use RISC-V compiler as shown.
-3.  assembly code instructions using the SPIKE tool.
- 4. RISC-V object dump for O1 optimization level
- 5. RISC-V object dump for Ofast optimization level
+  
+2.Verify that your code is giving same output even when you use RISC-V compiler as shown.
+
+  
+3.Assembly code instructions  using the SPIKE tool.
+
+4.RISC-V object dump for O1 optimization level.
+
+ 
+5. RISC-V object dump for Ofast optimization level.
+    
  </details>
  
 # Task3
