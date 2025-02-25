@@ -55,6 +55,7 @@ Compiles the program with high optimization.
 </details>
 
 # Task2
+To write a simple C program and to compile the C program using RISC-V GCC/SPIKE with the O1 and Ofast optimization flags and to generate and collect the RISC-V object dump for both -O1 and -Ofast.
  <details>
   
 1.Simple C program Compilation.
