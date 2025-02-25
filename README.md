@@ -132,6 +132,7 @@ Example: JAL rd, imm
 </details>
 
 # Task4
+In this task, we will perform functional simulation of RISC-V instructions modeled as a Verilog netlist and observe the output waveforms.
 <details>
  Instruction 1: ADD R6, R2, R1
 
