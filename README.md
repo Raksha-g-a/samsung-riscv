@@ -71,13 +71,12 @@ J-format
 In RV32, each instruction is of size 32 bits.
 In R-type instruction, R stands for register
 This instruction type is used to execute various arithmetic and logical operations.
-The entire 32 bits instruction is divided into 6 fields as shown below. R-type
-2. I-type Instruction
+
+3. I-type Instruction
 In RV32, each instruction is of size 32 bits.
 In I-type instruction, I stand for immediate which means that operations use Registers and Immediate value
 This instruction type is used in immediate and load operations.
-The entire 32 bits instruction is divided into 5 fields as shown below.
-I-type
+The entire 32 bits instruction is divided into 5 fields. 
 
 Example: ADDI rd, rs1, imm
 
@@ -85,31 +84,27 @@ Example: ADDI rd, rs1, imm
 In RV32, each instruction is of size 32 bits.
 In S-type instruction, S stand for store which means it is store type instruction that helps to store the value of register into the memory.
 Mainly, this instruction type is used for store operations.
-The entire 32 bits instruction is divided into 6 fields as shown below.
-S_type_instruction
+The entire 32 bits instruction is divided into 6 fields. 
 
 Example: SW rs2, imm(rs1)
 
 4. B-type Instruction
 In RV32, each instruction is of size 32 bits.
 In B-type instruction, B stand for branching which means it is mainly used for branching based on certain conditions.
-The entire 32 bits instruction is divided into 8 fields as shown below.
-B-type
+The entire 32 bits instruction is divided into 8 fields.
 
 Example: BEQ rs1, rs2, imm
 
 5. U-type Instruction
 In RV32, each instruction is of size 32 bits.
 In U-type instruction, U stand for Upper Immediate instructions which means it is simply used to transfer the immediate data into the destination register.
-The entire 32 bits instruction is divided into 3 fields as shown below.
-u-type
+The entire 32 bits instruction is divided into 3 fields.
 
 Example: LUI rd, imm
 
 6. J-type Instruction
 In RV32, each instruction is of size 32 bits.
 In J-type instruction, J stand for jump, which means that this instruction format is used to implement jump type instruction.
-The entire 32 bits instruction is divided into 6 fields as shown below.
-J_type_instruction
+The entire 32 bits instruction is divided into 6 field.
 
 Example: JAL rd, imm
