@@ -130,7 +130,14 @@ Example: JAL rd, imm
 
 # Task4
 <details>
+ Instruction 1: ADD R6, R2, R1
 
+ Instruction 2: SUB R7, R1, R2
+
+ Instruction 3: AND R8, R1, R3
+
+ Instruction 4: OR R9, R2, R5
+ 
  Instruction 5: XOR R10, R1, R4
 </details>
 
