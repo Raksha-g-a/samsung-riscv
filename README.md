@@ -152,9 +152,13 @@ In this task, we have to choose a topic and add Project name and brief overview 
             2-BIT COUNTER.
 
  Components required:-
-         1.The VSDSquadron Mini board
-         2. 2 LEDs   
-         3. breadboard
-         4.jumper wires
+         1.The VSDSquadron Mini board.
+        
+         2. 2 LEDs.
+         
+         3. breadboard.
+         
+         4.jumper wires.
+         
 
 </details>
