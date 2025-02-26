@@ -146,4 +146,15 @@ In this task, we will perform functional simulation of RISC-V instructions model
 </details>
 
 # Task5
+In this task, we have to choose a topic and add Project name and brief overview of the application.
+<details>
+ Name of the Project:- 
+            2-BIT COUNTER.
 
+ Components required:-
+         1.The VSDSquadron Mini board
+         2. 2 LEDs   
+         3. breadboard
+         4.jumper wires
+
+</details>
