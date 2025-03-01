@@ -7,6 +7,8 @@ Name:- RAKSHA G A
 
 College:- Sahyadri College of Engineering and Management Mangalore 
 
+gmail-id :- garaksha15@gmail.com
+
 # Task1
 Task is to install all the essential tools required for this samsung-RISCV Workshop such as Ubuntu on VMBox & refer to C based and RISCV based lab videos and execute the task of compiling the C code using gcc and riscv compiler.
 <details>
