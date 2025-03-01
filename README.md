@@ -151,7 +151,7 @@ In this task, we will perform functional simulation of RISC-V instructions model
 In this task, we have to choose a topic and add Project name and brief overview of the application.
 <details>
  Name of the Project:- 
-            2-BIT UP-COUNTER.
+            2-BIT UP-COUNTER USING VSDSQUDRON MINI BOARD.
 
  Components required:-
          1.The VSDSquadron Mini board.      ->  1          
