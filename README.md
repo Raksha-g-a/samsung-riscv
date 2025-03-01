@@ -131,6 +131,49 @@ The entire 32 bits instruction is divided into 6 field.
 
 Example: JAL rd, imm
 
+INSTRUCTIONS
+1. lui a2, 0x1
+Load Upper Immediate (LUI):
+Loads the immediate value 0x1 into the upper 20 bits of register a2 while setting the lower 12 bits to zero.
+Used for constructing large constants.
+2. lui a0, 0x21
+Loads 0x21 into the upper 20 bits of a0.
+3. addi sp, sp, -16
+Add Immediate (ADDI):
+Subtracts 16 from the stack pointer (sp), allocating stack space.
+4. addi a2, a2, 384
+Adds 384 to a2 (previously set by lui).
+5. li a0, 0
+Load Immediate (LI) [pseudo-instruction]
+Loads the value 0 into register a0.
+6. sd ra, 8(sp)
+Store Double (SD)
+Stores the return address (ra) into memory at sp + 8.
+7. jal ra, 104cc <printf>
+Jump and Link (JAL)
+Calls printf by jumping to 104cc and storing the return address in ra.
+8. ld ra, 8(sp)
+Load Double (LD)
+Loads the previously stored return address back into ra.
+9. ret
+Return
+Equivalent to jalr zero, ra, 0, returning to the caller.
+10. auipc a5, 0xfffff
+Add Upper Immediate to PC (AUIPC)
+Computes an address relative to the program counter.
+11. addi a5, a5, -224
+Adds -224 to a5.
+12. beqz a5, 100f8 <register_fini+0x18>
+Branch if Equal to Zero (BEQZ)
+If a5 == 0, jumps to address 100f8.
+13. jal a0, 272 <__libc_fini_array>
+Calls __libc_fini_array.
+14. j 101b4 <atexit>
+Unconditional Jump (J)
+Jumps to 101b4.
+15. lw a0, 0(sp)
+Load Word (LW)
+Loads a 32-bit word from memory at sp into a0.
 </details>
 
 # Task4
