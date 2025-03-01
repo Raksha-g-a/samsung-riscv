@@ -178,6 +178,8 @@ In this task, we have to choose a topic and add Project name and brief overview 
 8. Simple Timer Circuits – Used in time-delay circuits that require counting up to four cycles before triggering an action.
 9. Traffic Light Control (Basic) – Can control a simple four-phase traffic light sequence.
 10. Educational and Learning Purposes – Helps students understand the working of counters and flip-flops in digital logic.
+
+
 </details>
 
 # Task6
