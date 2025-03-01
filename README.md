@@ -180,14 +180,19 @@ Loads a 32-bit word from memory at sp into a0.
 In this task, we will perform functional simulation of RISC-V instructions modeled as a Verilog netlist and observe the output waveforms.
 <details>
  Instruction 1: ADD R6, R2, R1
+              Its operation is addition. It will give sum the inputs A and B and give us the output as their sum.
 
  Instruction 2: SUB R7, R1, R2
-
+              It will perform the subtraction operation. Output will bw the difference of A and B . 
+ 
  Instruction 3: AND R8, R1, R3
-
+              The output will be the bitwise operation of AND of A and B.      
+ 
  Instruction 4: OR R9, R2, R5
+              The output will be the bitwise operation of OR of A and B. 
  
  Instruction 5: XOR R10, R1, R4
+              The output will be the bitwise operation of XOR of A and B. 
 </details>
 
 # Task5
