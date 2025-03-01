@@ -154,10 +154,10 @@ In this task, we have to choose a topic and add Project name and brief overview 
             2-BIT UP-COUNTER.
 
  Components required:-
-         1.The VSDSquadron Mini board.      ->  1     
-         2.LEDs.                            ->  2
-         3. breadboard.                     ->  1
-         4.jumper wires.                    ->  As required
+         1.The VSDSquadron Mini board.      ->  1          
+         2.LEDs.                            ->  2        
+         3. breadboard.                     ->  1          
+         4.jumper wires.                    ->  As required        
 
  Truth Table
        number      In binary
