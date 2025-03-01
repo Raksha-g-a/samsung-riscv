@@ -207,11 +207,11 @@ In this task, we have to choose a topic and add Project name and brief overview 
          4.jumper wires.                    ->  As required        
 
  Truth Table
-       number      In binary
-       0              00
-       1              01
-       2              10
-       3              11
+            
+       0     ->         00                 
+       1     ->         01               
+       2     ->         10                
+       3     ->         11                  
       repeats...
   Working 
          It continuously counts from 0 to 3 in binary and after three it will turn to zero and then it repeats, since  it is a two bit counter.for symbol 0 LED will not glow and for symbol 1 LED will glow. 
