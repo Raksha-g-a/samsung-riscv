@@ -152,12 +152,20 @@ In this task, we have to choose a topic and add Project name and brief overview 
             2-BIT COUNTER.
 
  Components required:-
-         1.The VSDSquadron Mini board.
-         2.LEDs.
-         3. breadboard.
-         4.jumper wires.
-         
+         1.The VSDSquadron Mini board.      ->  1     
+         2.LEDs.                            ->  2
+         3. breadboard.                     ->  1
+         4.jumper wires.                    ->  As required
 
+ Truth Table
+       number      In binary
+       0              00
+       1              01
+       2              10
+       3              11
+      repeats...
+  Working 
+         It continuously counts from 0 to 3 in binary and after three it will turn to zero and then it repeats, since  it is a two bit counter.for symbol 0 LED will not glow and for symbol 1 LED will glow.     
 </details>
 
 # Task6
