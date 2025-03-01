@@ -70,7 +70,6 @@ To write a simple C program and to compile the C program using RISC-V GCC/SPIKE 
 
 4.RISC-V object dump for O1 optimization level.
 
- 
 5. RISC-V object dump for Ofast optimization level.
     
  </details>
